@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UI Design System — Zyryll Jemson Galang</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 min-h-screen flex flex-col items-center justify-center p-4">
+
+  <div class="max-w-md w-full bg-white rounded-2xl shadow-xl p-6 border border-slate-200">
+    <div class="flex items-center justify-between mb-6">
+      <h1 class="text-2xl font-bold text-slate-900">UI Design System</h1>
+      <span class="text-xs font-semibold text-cyan-600 bg-cyan-50 px-3 py-1 rounded-full">Zyryll Jemson Galang</span>
+    </div>
+
+    <p class="text-slate-600 mb-6 text-sm">
+      Reusable and consistent UI component library designed for web applications using Figma.
+    </p>
+
+    <div class="space-y-3 mb-8">
+      <div class="flex items-center justify-between p-3 rounded-xl border border-slate-200 bg-white">
+        <span class="text-sm font-medium text-slate-900">Design Tool</span>
+        <span class="text-sm text-cyan-600 font-semibold">Figma</span>
+      </div>
+      <div class="flex items-center justify-between p-3 rounded-xl border border-slate-200 bg-white">
+        <span class="text-sm font-medium text-slate-900">Documentation</span>
+        <span class="text-sm text-cyan-600 font-semibold">Storybook</span>
+      </div>
+      <div class="flex items-center justify-between p-3 rounded-xl border border-slate-200 bg-white">
+        <span class="text-sm font-medium text-slate-900">Components</span>
+        <span class="text-sm text-cyan-600 font-semibold">Buttons, Inputs, Cards, Modals</span>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3 mb-8">
+      <button class="px-4 py-2 bg-cyan-600 text-white text-xs font-semibold rounded-lg hover:bg-cyan-700 transition-colors">Primary</button>
+      <button class="px-4 py-2 bg-white border border-slate-300 text-slate-700 text-xs font-semibold rounded-lg hover:bg-slate-50 transition-colors">Secondary</button>
+      <button class="px-4 py-2 bg-slate-900 text-white text-xs font-semibold rounded-lg hover:bg-slate-800 transition-colors">Dark</button>
+      <button class="px-4 py-2 bg-white border border-slate-300 text-red-600 text-xs font-semibold rounded-lg hover:bg-red-50 transition-colors">Danger</button>
+    </div>
+
+    <div class="flex gap-3">
+      <a href="https://github.com/zyrylljemsonag" target="_blank" rel="noopener noreferrer" class="flex-1 px-6 py-3 bg-cyan-600 hover:bg-cyan-700 text-white font-semibold rounded-xl text-center transition-all active:scale-95 shadow-md hover:shadow-cyan-500/30">View Source Code</a>
+      <a href="https://github.com/zyrylljemsonag" target="_blank" rel="noopener noreferrer" class="flex-1 px-6 py-3 bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold rounded-xl text-center transition-all active:scale-95">View Design</a>
+    </div>
+  </div>
+
+</body>
+</html>
